@@ -1,0 +1,152 @@
+.docdetail-1 {
+  display: flex;
+  margin-top: 5%;
+}
+.doc-img {
+  width: 280px;
+  border: 0px solid black;
+  background-color: #5f6fff;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.docdetails-2 {
+  border: 1px solid #4b5563;
+  padding-left: 20px;
+  width: 100%;
+  padding: 3%;
+  border-radius: 12px;
+}
+.divof {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding: 0px;
+  height: 25px;
+}
+.divof h3 {
+  color: #1f2937;
+  font-size: 30px;
+  font-weight: 500;
+}
+.divof-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.divof-2 p {
+  color: #4b5563 !important;
+}
+.divof-2 div {
+  padding: 2px 8px 2px 8px;
+  border: 1px solid #4b5563;
+  color: #4b5563;
+  border-radius: 13px;
+}
+.divof-3 div {
+  display: flex;
+  padding: 0px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+.divof-3 div p {
+  color: #1f2937;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.divof-3 div img {
+  margin-top: 0px;
+}
+.divof-3 p {
+  margin-top: 0px;
+  color: #4b5563;
+}
+.divof-3 h3 {
+  color: #4b5563;
+  font-weight: 600;
+}
+
+.docdetail-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.docdetail-2 h2{
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.doctors-ul-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 25px;
+  list-style: none;
+  width: 100%;
+  margin-left: 10px;
+  padding: 5px;
+  justify-content: start;
+}
+.doctors-ul-list li {
+  border: 1px solid #c9d8ff;
+  border-radius: 8px;
+}
+.doctors-img-con {
+  display: flex;
+  background-color: #eaefff;
+  border-radius: 8px;
+}
+.doctors-img-con img {
+  width: 210px;
+  height: 200px;
+  top: 1565px;
+  
+  align-self: flex-end;
+}
+.dot {
+  background-color: #0fbf00;
+  height: 8px;
+  width: 8px;
+  border-radius: 40px;
+  align-self: center;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+.available {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+.available p {
+  color: #0fbf00 !important;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 12px;
+
+  h3 {
+    margin: 0px;
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+.details p {
+  margin: 0px;
+  color: #4b5563;
+  font-size: 14px;
+  font-weight: 450;
+}
+.link{
+    text-decoration: none;
+}

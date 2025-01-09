@@ -1,0 +1,57 @@
+.nav-bar {
+  height: 55px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.image {
+  height: 40px;
+  cursor: pointer;
+}
+.nav-bar div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30vw;
+}
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #1f2937;
+  font-size: 15px;
+}
+
+.admin-button {
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 5px 14px 5px 14px;
+}
+.create-button {
+  padding: 3px 13px 3px 13px;
+  height: 45px;
+  width: 160px;
+  top: 17px;
+  left: 1526px;
+  gap: 0px;
+  border-radius: 50px;
+  opacity: 5px;
+  background: #5f6fff;
+  border: 0px solid;
+  color: aliceblue;
+  font-family: outfit;
+  font-size: 15px;
+  cursor: pointer;
+}
+.navlink-con{
+  hr{
+    visibility: hidden;
+    color: #5f6fff;
+  }
+}
+.active hr {
+  background-color: rgb(17, 237, 237);
+  visibility: visible;
+}

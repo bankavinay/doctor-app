@@ -1,0 +1,32 @@
+.footer-1{
+    height: 50%;
+    margin-top: 15vh;
+    width: 95%;
+    padding: 6px;
+}
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-3{
+    color: #4B5563;
+    font-size: 14px;
+}
+.footer-3 img{
+    height: 35px;
+}
+
+.footer-4 h3{
+    color: #4B5563;
+    font-weight: 600;
+    
+}
+.footer-4 p{
+    margin: 5px;
+    color: #4B5563;
+    font-size: 14px;
+}
+.footer-5{
+    display: flex;
+    justify-content: center;
+}
